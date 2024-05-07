@@ -267,7 +267,7 @@ if __name__ == '__main__':
     parser.add_argument('--inner_unit', type=int, default=200)
     parser.add_argument('--out_unit', type=int, default=200)
     parser.add_argument('--print_num', type=int, default=100)
-    parser.add_argument('--nepochs', type=int, default=10000)
+    parser.add_argument('--nepochs', type=int, default=100)
     parser.add_argument('--lr', type=float, default=0.001) 
     parser.add_argument('--cuda', type=str, default=True)
     parser.add_argument('--r0', type=float, default=1)
