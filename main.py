@@ -274,7 +274,7 @@ if __name__ == '__main__':
     parser.add_argument('--a', type=float, default=2)
     parser.add_argument('--L', type=list, default=[1,1])
     parser.add_argument('--box', type=list, default=2)
-    parser.add_argument('--change_epoch', type=int, default=100)
+    parser.add_argument('--change_epoch', type=int, default=10)
     parser.add_argument('--save', type=str, default=False)
     args = parser.parse_args()
     main(args)
